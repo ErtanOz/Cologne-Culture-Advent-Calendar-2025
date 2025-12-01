@@ -11,9 +11,21 @@ import { Settings, Lock, Unlock, Download, Globe } from 'lucide-react';
 // ANLEITUNG ZUM VERÖFFENTLICHEN:
 // 1. Bearbeite deinen Kalender im Browser (?admin=true).
 // 2. Klicke im Admin-Modus auf "Export Data".
-// 3. Füge den kopierten Text unten zwischen die eckigen Klammern von STATIC_DATA ein.
+// 3. Füge den kopierten Text unten als Partial<CalendarDay> Objekte ein.
+// 4. Nur Tage mit Inhalt müssen definiert werden - leere Tage werden automatisch generiert.
 // -----------------------------------------------------------------------------
-const STATIC_DATA: CalendarDay[] = [];
+// Optimiert: Nur Tage mit tatsächlichem Inhalt werden hier gespeichert
+const STATIC_DATA: Partial<CalendarDay>[] = [
+  {
+    day: 1,
+    imageUrl: "https://media-cdn.holidaycheck.com/w_2880,h_1620,c_fit,q_auto,f_auto/ugc/images/134f2038-5eff-30ff-9c06-29578567e672",
+    linkUrl: "https://www.youtube.com/watch?v=EnlRd0ceLRU",
+    title: "Tag 1: Tünnes und Schäl",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 2, imageUrl: "...", linkUrl: "...", title: "..." },
+];
+
 // -----------------------------------------------------------------------------
 
 const TOTAL_DAYS = 24;
@@ -97,6 +109,22 @@ const generateInitialData = (): CalendarDay[] => {
   }));
 };
 
+// Merge static data with generated defaults
+const mergeStaticData = (): CalendarDay[] => {
+  const defaults = generateInitialData();
+  
+  // Create a map for quick lookup
+  const staticMap = new Map(
+    STATIC_DATA.map(item => [item.day, item])
+  );
+  
+  // Merge: defaults with static data overlay
+  return defaults.map(day => ({
+    ...day,
+    ...(staticMap.get(day.day) || {})
+  }));
+};
+
 const App: React.FC = () => {
   const [days, setDays] = useState<CalendarDay[]>([]);
   const [isEditMode, setIsEditMode] = useState(false);
@@ -142,7 +170,8 @@ const App: React.FC = () => {
       const migrated = parsed.map((d: any) => ({ ...d, title: d.title || '' }));
       setDays(migrated);
     } else if (STATIC_DATA && STATIC_DATA.length > 0) {
-      setDays(STATIC_DATA);
+      // Merge static data with generated defaults for all 24 days
+      setDays(mergeStaticData());
     } else {
       setDays(generateInitialData());
     }

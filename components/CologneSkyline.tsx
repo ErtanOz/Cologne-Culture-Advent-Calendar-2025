@@ -6,7 +6,7 @@ export const CologneSkyline: React.FC<{ className?: string }> = ({ className = "
       <svg
         viewBox="0 0 1200 300"
         preserveAspectRatio="none"
-        className="w-full h-auto opacity-30 text-red-900 fill-current"
+        className="w-full h-auto fill-current animate-skyline"
         xmlns="http://www.w3.org/2000/svg"
       >
         {/* Simple stylized silhouette of Cologne Cathedral (Dom) and Rhine bridge */}

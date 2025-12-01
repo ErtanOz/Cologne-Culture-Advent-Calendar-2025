@@ -1,3 +1,4 @@
+
 export interface CalendarDay {
   day: number;
   imageUrl: string;
@@ -27,6 +28,10 @@ export interface DayWindowProps {
   isEditMode: boolean;
   onEdit: (day: CalendarDay) => void;
   editLabel: string;
+  shareLabel: string;
+  copyLabel: string;
+  copiedLabel: string;
+  lockedLabel: string;
 }
 
 export interface EditModalProps {

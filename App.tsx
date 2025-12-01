@@ -1,8 +1,10 @@
+
 import React, { useState, useEffect } from 'react';
 import { CalendarDay, EditModalTranslations } from './types';
 import { DayWindow } from './components/DayWindow';
 import { EditModal } from './components/EditModal';
 import { CologneSkyline } from './components/CologneSkyline';
+import { BackgroundMusic } from './components/BackgroundMusic';
 import { Settings, Lock, Unlock, Download, Globe } from 'lucide-react';
 
 // -----------------------------------------------------------------------------
@@ -30,6 +32,10 @@ const TRANSLATIONS = {
     infoBanner: "Klicke auf ein Fenster, um Bild und Link hinzuzufügen. Vergiss nicht, danach zu 'Exportieren'!",
     footer: "Mit festlicher Stimmung erstellt",
     dayEditLabel: "Bearbeiten",
+    shareLabel: "Teilen",
+    copyLabel: "Link kopieren",
+    copiedLabel: "Link kopiert!",
+    lockedLabel: "Noch nicht geöffnet! 🎄",
     modal: {
       editDay: "Tag bearbeiten",
       titleLabel: "Titel / Beschriftung",
@@ -58,6 +64,10 @@ const TRANSLATIONS = {
     infoBanner: "Click on a window to add an image and link. Don't forget to 'Export' afterwards!",
     footer: "Made with holiday spirit",
     dayEditLabel: "Edit",
+    shareLabel: "Share",
+    copyLabel: "Copy Link",
+    copiedLabel: "Link copied!",
+    lockedLabel: "Not yet open! 🎄",
     modal: {
       editDay: "Edit Day",
       titleLabel: "Title / Caption",
@@ -97,11 +107,28 @@ const App: React.FC = () => {
 
   const t = TRANSLATIONS[lang];
 
-  // Check for admin URL parameter
+  // Check for admin URL parameter and Deep Linking
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
+    
+    // Admin Check
     if (params.get('admin') === 'true') {
       setIsAdminAccess(true);
+    }
+
+    // Deep Link Scroll
+    const dayParam = params.get('day');
+    if (dayParam) {
+      // Use a timeout to ensure DOM is ready after React renders initial state
+      setTimeout(() => {
+        const dayElement = document.getElementById(`day-${dayParam}`);
+        if (dayElement) {
+          dayElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          // Optional: Add a temporary highlight effect
+          dayElement.classList.add('ring-4', 'ring-gold-400');
+          setTimeout(() => dayElement.classList.remove('ring-4', 'ring-gold-400'), 2000);
+        }
+      }, 500);
     }
   }, []);
 
@@ -159,8 +186,11 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-red-950/40 overflow-x-hidden flex flex-col relative font-sans">
       
-      {/* Top Controls (Admin + Language) */}
+      {/* Top Controls (Admin + Language + Music) */}
       <div className="absolute top-4 right-4 z-50 flex gap-2 items-center">
+        {/* Background Music Control */}
+        <BackgroundMusic />
+
         {/* Language Toggle */}
         <button
           onClick={toggleLanguage}
@@ -228,6 +258,10 @@ const App: React.FC = () => {
                 isEditMode={isEditMode}
                 onEdit={handleEditClick}
                 editLabel={t.dayEditLabel}
+                shareLabel={t.shareLabel}
+                copyLabel={t.copyLabel}
+                copiedLabel={t.copiedLabel}
+                lockedLabel={t.lockedLabel}
               />
             ))}
           </div>

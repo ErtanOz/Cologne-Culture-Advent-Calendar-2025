@@ -22,6 +22,12 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
     linkUrl: "https://www.youtube.com/watch?v=EnlRd0ceLRU",
     title: "Tag 1: Tünnes und Schäl",
   },
+  {
+    day: 2,
+    imageUrl: "https://www.meisterdrucke.com/kunstwerke/1260px/Max_Liebermann_-_The_Bleaching_of_Linen_1882_-_(MeisterDrucke-764448).jpg",
+    linkUrl: "https://youtu.be/kn8a8FCdMZ8",
+    title: "Das Bleichen von Leinen",
+  },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 2, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
@@ -175,6 +181,7 @@ const App: React.FC = () => {
     } else {
       setDays(generateInitialData());
     }
+    
   }, []);
 
   // Save to local storage whenever days change

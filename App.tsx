@@ -30,6 +30,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 2, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 3,
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Weihestein_Vagdavercustis.JPG",
+    linkUrl: "https://www.youtube.com/watch?v=EnlRd0ceLRU&list=PLlpjEPcD1L8QDTtaoapPD4MnLINEG14vD&index=2",
+    title: "Tag 3: Römische Denkmal für die Gottheiten",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 2, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

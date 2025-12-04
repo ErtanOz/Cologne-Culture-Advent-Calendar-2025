@@ -38,6 +38,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 2, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 4,
+    imageUrl: "https://img.destination.one/remote/.webp?url=https%3A%2F%2Fdam.destination.one%2F2567659%2Fc7bcfa0727b5d923f0da1fb7cffccdebacbd495490b67d12e48f8636ceac0844%2Fwilly-millowitsch-denkmal.jpg&scale=both&mode=crop&quality=90&width=707https://img.destination.one/remote/.webp?url=https%3A%2F%2Fdam.destination.one%2F2567659%2Fc7bcfa0727b5d923f0da1fb7cffccdebacbd495490b67d12e48f8636ceac0844%2Fwilly-millowitsch-denkmal.jpg",
+    linkUrl: "https://youtube.com/shorts/S5uw_9jhiwQ",
+    title: "Tag 4: Willy Millowitsch Denkmal ",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 2, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

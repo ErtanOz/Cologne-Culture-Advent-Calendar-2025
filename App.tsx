@@ -46,6 +46,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 2, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 5,
+    imageUrl: "https://museenkoeln.de/portal/medien/img_bdw/hi/2001_14.jpg",
+    linkUrl: "https://www.youtube.com/shorts/HUGAk6URnwU?feature=share",
+    title: "𝗧𝗮𝗴 𝟱: 𝗖𝗵𝗿𝗶𝘀𝘁𝘂𝘀 𝗮𝘂𝗳 𝗱𝗲𝗺 𝗣𝗮𝗹𝗺𝗲𝘀𝗲𝗹, 𝘂𝗺 𝟭𝟱𝟮𝟬 (𝗠𝘂𝘀𝗲𝘂𝗺 𝗦𝗰𝗵𝗻𝘂𝘁𝗴𝗲𝗻)",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 6, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

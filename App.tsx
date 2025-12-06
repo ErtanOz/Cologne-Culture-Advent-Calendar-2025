@@ -54,6 +54,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 6, imageUrl: "...", linkUrl: "...", title: "..." },
+   {
+    day: 6,
+    imageUrl: "https://rp-online.de/imgs/32/2/0/4/1/4/6/7/5/tok_fb1006db870b8e7ffa55b61c89f2572b/w940_h528_x470_y264_6ec27c188e599122.jpg",
+    linkUrl: "https://youtu.be/IJnD2wMCtiM",
+    title: "𝗧𝗮𝗴 𝟲: 𝗗𝗲𝗿 𝗕𝗮𝗵𝗻𝗵𝗼𝗳 𝘃𝗼𝗻 𝗣𝗲𝗿𝗽𝗶𝗴𝗻𝗮𝗻, 𝗦𝗮𝗹𝘃𝗮𝗱𝗼𝗿 𝗗𝗮𝗹𝗶, (𝗞𝗼𝗹𝗻𝗲𝗿 𝗠𝘂𝘀𝗲𝘂𝗺 𝗟𝘂𝗱𝘄𝗶𝗴)",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 6, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

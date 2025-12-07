@@ -62,6 +62,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 6, imageUrl: "...", linkUrl: "...", title: "..." },
+   {
+    day: 7,
+    imageUrl: "https://www.lempertz.com//lempertz_api/images/1064-134-Carl-Ruedell-View-of-the-Old.jpg",
+    linkUrl: "https://youtube.com/shorts/A594a6uY3-8",
+    title: "𝗧𝗮𝗴 𝟳 – 𝗖𝗮𝗿𝗹 𝗥𝘂𝗱𝗲𝗹𝗹 - 𝗞ö𝗹𝗻𝗲𝗿 𝗔𝗹𝘁𝘀𝘁𝗮𝗱𝘁 𝗺𝗶𝘁 𝗚𝗿𝗼ß 𝗦𝘁. 𝗠𝗮𝗿𝘁𝗶𝗻 𝘂𝗻𝗱 𝘀𝗽𝗶𝗲𝗹𝗲𝗻𝗱𝗲𝗻 𝗞𝗶𝗻𝗱𝗲𝗿𝗻 (𝟭𝟵. 𝗝𝗵.)",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 7, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

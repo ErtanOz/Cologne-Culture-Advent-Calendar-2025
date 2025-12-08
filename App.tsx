@@ -67,6 +67,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
     imageUrl: "https://www.lempertz.com//lempertz_api/images/1064-134-Carl-Ruedell-View-of-the-Old.jpg",
     linkUrl: "https://youtube.com/shorts/A594a6uY3-8",
     title: "𝗧𝗮𝗴 𝟳 – 𝗖𝗮𝗿𝗹 𝗥𝘂𝗱𝗲𝗹𝗹 - 𝗞ö𝗹𝗻𝗲𝗿 𝗔𝗹𝘁𝘀𝘁𝗮𝗱𝘁 𝗺𝗶𝘁 𝗚𝗿𝗼ß 𝗦𝘁. 𝗠𝗮𝗿𝘁𝗶𝗻 𝘂𝗻𝗱 𝘀𝗽𝗶𝗲𝗹𝗲𝗻𝗱𝗲𝗻 𝗞𝗶𝗻𝗱𝗲𝗿𝗻 (𝟭𝟵. 𝗝𝗵.)",
+   {
+    day: 8,
+    imageUrl: "https://museum-fuer-ostasiatische-kunst.de/medien/abb/2647/44716__2759315_lo.jpg",
+    linkUrl: "https://youtube.com/shorts/0t8j2iGuSbk",
+    title: "𝗧𝗮𝗴 𝟴: Ü𝗯𝗲𝗿 𝗱𝗶𝗲 „𝗟𝗶𝗻𝗶𝗲“ – 𝗠𝘂𝘀𝗲𝘂𝗺 𝗳𝘂𝗿 𝗢𝘀𝘁𝗮𝘀𝗶𝗮𝘁𝗶𝘀𝗰𝗵𝗲𝘀 𝗞𝘂𝗻𝘀𝘁 𝗞ö𝗹𝗻",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 9, imageUrl: "...", linkUrl: "...", title: "..." },
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 7, imageUrl: "...", linkUrl: "...", title: "..." },

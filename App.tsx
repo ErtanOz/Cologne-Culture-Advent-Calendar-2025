@@ -79,7 +79,7 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   // Beispiel: { day: 9, imageUrl: "...", linkUrl: "...", title: "..." },
   {
     day: 9,
-    imageUrl: "𝗵𝘁𝘁𝗽𝘀://𝗸𝘂𝗻𝘀𝘁𝗳𝗿𝗲𝘂𝗻𝗱𝗲.𝗸𝗼𝗲𝗹𝗻/𝘄𝗽-𝗰𝗼𝗻𝘁𝗲𝗻𝘁/𝘂𝗽𝗹𝗼𝗮𝗱𝘀/𝟮𝟬𝟮𝟱/𝟭𝟬/𝗞𝗞-𝟭𝟱.𝟭𝟬.-𝗡𝗶𝗸𝗶𝘁𝗮-𝟭𝟭𝟭𝟬𝘅𝟲𝟮𝟰.𝗷𝗽𝗴",
+    imageUrl: "https://www.wallraf.museum/fileadmin/user_upload/content/Ausstellungen/2025/2025-11-14-Expedition_Zeichnung/Teaser/Teaserfoto_Website_Expedition_Zeichnung.jpg",
     linkUrl: "https://youtu.be/8N_3Z22UtbM",
     title: "𝗧𝗮𝗴 𝟵: 𝗔𝗻𝘀𝗶𝗰𝗵𝘁 𝘃𝗼𝗻 𝗠ü𝗹𝗵𝗲𝗶𝗺 𝗮𝘂𝘀. 𝗗𝗼𝗼𝗺𝗲𝗿, 𝗟𝗮𝗺𝗯𝗲𝗿𝘁 𝗞ö𝗹𝗻. 𝗪𝗮𝗹𝗹𝗿𝗮𝗳-𝗥𝗶𝗰𝗵𝗮𝗿𝘁𝘇-𝗠𝘂𝘀𝗲𝘂𝗺",
   },

@@ -83,6 +83,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
     linkUrl: "https://youtu.be/8N_3Z22UtbM",
     title: "𝗧𝗮𝗴 𝟵: 𝗔𝗻𝘀𝗶𝗰𝗵𝘁 𝘃𝗼𝗻 𝗠ü𝗹𝗵𝗲𝗶𝗺 𝗮𝘂𝘀. 𝗗𝗼𝗼𝗺𝗲𝗿, 𝗟𝗮𝗺𝗯𝗲𝗿𝘁 𝗞ö𝗹𝗻. 𝗪𝗮𝗹𝗹𝗿𝗮𝗳-𝗥𝗶𝗰𝗵𝗮𝗿𝘁𝘇-𝗠𝘂𝘀𝗲𝘂𝗺",
   },
+  {
+    day: 10,
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rathausturm_K%C3%B6ln_-_Evergislus_-_Severin_-_Jabbek_-_Maternus_-_Ursula_%284171-73%29.jpg",
+    linkUrl: "https://youtu.be/GwCVMvRaxXY",
+    title: "𝗧𝗮𝗴 𝟭𝟬: 𝗗𝗲𝗿 𝗣𝗹𝗮𝘁𝘇𝗷𝗮𝗯𝗯𝗲𝗰𝗸",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 11, imageUrl: "...", linkUrl: "...", title: "..." },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 9, imageUrl: "...", linkUrl: "...", title: "..." },  
 ];

@@ -92,7 +92,15 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 11, imageUrl: "...", linkUrl: "...", title: "..." },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
-  // Beispiel: { day: 9, imageUrl: "...", linkUrl: "...", title: "..." },  
+  // Beispiel: { day: 9, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 11,
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/72/St._C%C3%A4cilien_K%C3%B6ln_-_Totentanz_-_Harald_Naegeli_%287900-02%29.jpg",
+    linkUrl: "https://youtube.com/shorts/TNELDlcZF18",
+    title: "𝗧𝗮𝗴 𝟭1: Der Kölner Totentanz an St. Cäcilien (2010), Museum Schnütgen ",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 12, imageUrl: "...", linkUrl: "...", title: "..." }
 ];
 
 // -----------------------------------------------------------------------------

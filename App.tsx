@@ -100,7 +100,15 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
     title: "𝗧𝗮𝗴 𝟭1: Der Kölner Totentanz an St. Cäcilien (2010), Museum Schnütgen ",
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
-  // Beispiel: { day: 12, imageUrl: "...", linkUrl: "...", title: "..." }
+  // Beispiel: { day: 12, imageUrl: "...", linkUrl: "...", title: "..." },
+   {
+    day: 12,
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Alter_Markt_K%C3%B6ln_um_1850.jpg",
+    linkUrl: "https://youtu.be/UkQPq_SW7fw",
+    title: "𝗧𝗮𝗴 𝟭2: Alter Markt Köln um 1850",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 13, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

@@ -109,6 +109,15 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 13, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 13,
+    imageUrl: "https://sportmuseum.de/media/pages/unser-museum/sammlung/4dbdc2465f-1649057235/13-06-7.jpg",
+    linkUrl: "https://studio.youtube.com/video/7n9AS4U6j40/edit",
+    title: "𝗧𝗮𝗴 𝟭𝟯: 𝗗𝗲𝘂𝘁𝘀𝗰𝗵𝗲𝘀 𝗧𝘂𝗿𝗻𝗳𝗲𝘀𝘁 𝟭𝟵𝟮𝟴 𝗶𝗻 𝗞𝗼𝗹𝗻 | 𝗗𝗲𝘂𝘁𝘀𝗰𝗵𝗲𝘀 𝗦𝗽𝗼𝗿𝘁 & 𝗢𝗹𝘆𝗺𝗽𝗶𝗮 𝗠𝘂𝘀𝗲𝘂𝗺",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 14, imageUrl: "...", linkUrl: "...", title: "..." },
+  
 ];
 
 // -----------------------------------------------------------------------------

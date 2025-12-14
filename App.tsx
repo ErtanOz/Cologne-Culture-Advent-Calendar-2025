@@ -121,7 +121,7 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
     day: 14,
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ostermannbrunnen%2C_Ostermannplatz%2C_K%C3%B6ln-9969.jpg",
     linkUrl: "https://youtu.be/MoQ8vVhodL8",
-    title: "𝗧𝗮𝗴 𝟭𝟯: 𝗗𝗲𝘂𝘁𝘀𝗰𝗵𝗲𝘀 𝗧𝘂𝗿𝗻𝗳𝗲𝘀𝘁 𝟭𝟵𝟮𝟴 𝗶𝗻 𝗞𝗼𝗹𝗻 | 𝗗𝗲𝘂𝘁𝘀𝗰𝗵𝗲𝘀 𝗦𝗽𝗼𝗿𝘁 & 𝗢𝗹𝘆𝗺𝗽𝗶𝗮 𝗠𝘂𝘀𝗲𝘂𝗺",
+    title: "𝗧𝗮𝗴 𝟭4: 𝗗𝗲𝘂𝘁𝘀𝗰𝗵𝗲𝘀 𝗧𝘂𝗿𝗻𝗳𝗲𝘀𝘁 𝟭𝟵𝟮𝟴 𝗶𝗻 𝗞𝗼𝗹𝗻 | 𝗗𝗲𝘂𝘁𝘀𝗰𝗵𝗲𝘀 𝗦𝗽𝗼𝗿𝘁 & 𝗢𝗹𝘆𝗺𝗽𝗶𝗮 𝗠𝘂𝘀𝗲𝘂𝗺",
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 15, imageUrl: "...", linkUrl: "...", title: "..." },

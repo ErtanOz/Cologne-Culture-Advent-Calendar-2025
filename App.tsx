@@ -125,6 +125,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 15, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 15,
+    imageUrl: "https://www.erzbistum-koeln.de/export/sites/ebkportal/.content/.galleries/news/2025/251007_suitbertus/Suitbertusschrei_Langseite_C.jpg_830849982.jpg",
+    linkUrl: "https://youtu.be/0LqQLol2s-s",
+    title: "Tag 15: Der Kaiserswerther Suitbertusschrein, Kölner Domschatzkammer",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 16, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

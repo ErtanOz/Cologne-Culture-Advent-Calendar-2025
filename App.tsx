@@ -133,6 +133,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 16, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 16,
+    imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy8NByKKAyhlimTqIzV4VV7iY7-Ly0lqkWwNkDnzeeyJbAgcszl8M6kjxzez5GfkjQx4nfYiLheDjPbcTnxBOOiH_gfiehTnWPIZ1hLFo8dQJ5ZY3jA1pc3quexKPPxFhQvbPq3FQ=s680-w680-h510-rw",
+    linkUrl: "https://youtube.com/shorts/4H81Uy1QiUo",
+    title: "Tag 16: Die Statue Harihara, RJM Köln",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 17, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

@@ -143,7 +143,7 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   // Beispiel: { day: 17, imageUrl: "...", linkUrl: "...", title: "..." },
  {
     day: 16,
-    imageUrl: "https://de.wikipedia.org/wiki/Der_Wanderer_4.0#/media/Datei:Wandgem%C3%A4lde_Gie%C3%9Fener_Stra%C3%9Fe,_K%C3%B6ln-Humboldt-49772_(cropped).jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Wandgem%C3%A4lde_Gie%C3%9Fener_Stra%C3%9Fe%2C_K%C3%B6ln-Humboldt-49772_%28cropped%29.jpg",
     linkUrl: "https://www.youtube.com/shorts/DPbrlldW7CU",
     title: "Tag 17: Der Wanderer 4.0, das Wandgemälde im Kölner Stadtteil Kalk",
   },

@@ -141,6 +141,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 17, imageUrl: "...", linkUrl: "...", title: "..." },
+ {
+    day: 16,
+    imageUrl: "https://de.wikipedia.org/wiki/Der_Wanderer_4.0#/media/Datei:Wandgem%C3%A4lde_Gie%C3%9Fener_Stra%C3%9Fe,_K%C3%B6ln-Humboldt-49772_(cropped).jpg",
+    linkUrl: "https://www.youtube.com/shorts/DPbrlldW7CU",
+    title: "Tag 17: Der Wanderer 4.0, das Wandgemälde im Kölner Stadtteil Kalk",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 17, imageUrl: "...", linkUrl: "...", title: "..." },
 ];
 
 // -----------------------------------------------------------------------------

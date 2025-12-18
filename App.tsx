@@ -151,7 +151,7 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   // Beispiel: { day: 17, imageUrl: "...", linkUrl: "...", title: "..." },
  {
     day: 18,
-    imageUrl: "https://de.wikipedia.org/wiki/Der_Wanderer_4.0#/media/Datei:Wandgem%C3%A4lde_Gie%C3%9Fener_Stra%C3%9Fe,_K%C3%B6ln-Humboldt-49772_(cropped).jpg",
+    imageUrl: "https://makk.de/assets/static/images/1-3_teaser/_n33_teaser/E2109.jpg",
     linkUrl: "https://youtu.be/rAgLmnhOYIw",
     title: "𝗧𝗮𝗴 𝟭𝟴: 𝗙𝗔𝗩𝗦𝗧𝗜𝗡𝗔 𝗗𝗜𝗩𝗔, 𝗘𝗶𝗻 𝗕𝗹𝗶𝗰𝗸 𝗶𝗻 𝗱𝗶𝗲 𝗚𝗲𝘀𝗰𝗵𝗶𝗰𝗵𝘁𝗲  (𝗠𝘂𝘀𝗲𝘂𝗺 𝗠𝗔𝗞𝗞)",
   },

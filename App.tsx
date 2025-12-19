@@ -157,6 +157,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 19, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 19,
+    imageUrl: "https://img.destination.one/remote/.webp?url=https%3A%2F%2Fdam.destination.one%2F1749399%2Fbdf4fe3283f217abe88ac3ccf7119e519e0d21f3ef35d2e912b249984ae593dd%2Fheinzelmaennchenbrunnen.jpg",
+    linkUrl: "https://youtu.be/mxgSf3uUJcA",
+    title: "𝗧𝗮𝗴 𝟭𝟵: 𝗛𝗲𝗶𝗻𝘇𝗲𝗹𝗺ä𝗻𝗻𝗰𝗵𝗲𝗻𝗯𝗿𝘂𝗻𝗻𝗲𝗻 𝟭𝟴𝟵𝟵/𝟭𝟵𝟬𝟬",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 20, imageUrl: "...", linkUrl: "...", title: "..." },
   
 ];
 

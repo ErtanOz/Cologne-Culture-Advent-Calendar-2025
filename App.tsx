@@ -165,6 +165,15 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 20, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 20,
+    imageUrl: "https://img.destination.one/remote/.webp?url=https%3A%2F%2Fdam.destination.one%2F3444509%2Fe6dc04915ba56fdb6503bcfb058fb4b0b44e9d4962f49359c9f0df4a8b5c3f7b%2Fecce-homo-k-ln-um-1460-1500-lindenholz-mit-vier-fassungen.jpg",
+    linkUrl: "https://youtu.be/5aimCtIllVg",
+    title: "𝗧𝗮𝗴 20: Eco Hommo, Columba Museum",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 20, imageUrl: "...", linkUrl: "...", title: "..." },
+
   
 ];
 

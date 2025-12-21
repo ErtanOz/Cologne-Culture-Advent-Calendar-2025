@@ -173,7 +173,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 20, imageUrl: "...", linkUrl: "...", title: "..." },
-
+  {
+    day: 21,
+    imageUrl: "https://www.sarotti.de/content/uploads/2018/01/historie-2-1-wichtige-meilensteine.png",
+    linkUrl: "https://www.youtube.com/shorts/FQ-CfscCiyk",
+    title: "𝗧𝗮𝗴 21: 𝗧𝗿𝗮𝗱𝗶𝘁𝗶𝗼𝗻 𝗶𝗺 𝗪𝗮𝗻𝗱𝗲𝗹 – 𝗗𝗲𝗿 𝗦𝗮𝗿𝗼𝘁𝘁𝗶-𝗠𝗼𝗵𝗿 & 𝗱𝗮𝘀 𝗦𝗰𝗵𝗼𝗸𝗼𝗹𝗮𝗱𝗲𝗻𝗺𝘂𝘀𝗲𝘂𝗺 𝗞ö𝗹𝗻 ",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 22, imageUrl: "...", linkUrl: "...", title: "..." },
   
 ];
 

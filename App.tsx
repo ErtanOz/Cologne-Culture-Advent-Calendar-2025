@@ -181,6 +181,14 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 22, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 22,
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/M-Maybe.jpg",
+    linkUrl: "https://youtu.be/MbpglBLGLpM",
+    title: "Tag 22: M-Maybe (A Girl's Picture), Ludwig Museum",
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 22, imageUrl: "...", linkUrl: "...", title: "..." },
   
 ];
 

@@ -186,17 +186,17 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/M-Maybe.jpg",
     linkUrl: "https://youtu.be/MbpglBLGLpM",
     title: "Tag 22: M-Maybe (A Girl's Picture), Ludwig Museum",
-    {
-    day: 22,
+  },
+  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
+  // Beispiel: { day: 22, imageUrl: "...", linkUrl: "...", title: "..." },
+  {
+    day: 23,
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bimah2.jpg",
     linkUrl: "https://youtu.be/fmE46vnZwcU",
     title: "𝗧𝗮𝗴 𝟮𝟯: 𝗘𝗶𝗻 𝗙𝗲𝗻𝘀𝘁𝗲𝗿 𝗶𝗻 𝟮𝟬𝟬𝟬 𝗝𝗮𝗵𝗿𝗲 𝗚𝗲𝘀𝗰𝗵𝗶𝗰𝗵𝘁𝗲, 𝗱𝗶𝗿𝗲𝗸𝘁 𝘃𝗼𝗿 𝗱𝗲𝗺 𝗞ö𝗹𝗻𝗲𝗿 𝗥𝗮𝘁𝗵𝗮𝘂𝘀, 𝗠𝗶𝗤𝘂𝗮",
   },
   // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
   // Beispiel: { day: 22, imageUrl: "...", linkUrl: "...", title: "..." },
-  },
-  // Weitere Tage hier hinzufügen, wenn sie Inhalt haben
-  // Beispiel: { day: 22, imageUrl: "...", linkUrl: "...", title: "..." },  
 ];
 
 // -----------------------------------------------------------------------------

@@ -199,7 +199,7 @@ const STATIC_DATA: Partial<CalendarDay>[] = [
   // Beispiel: { day: 22, imageUrl: "...", linkUrl: "...", title: "..." },
   {
     day: 24,
-    imageUrl: "https://de.wikipedia.org/wiki/K%C3%B6lner_Dom#/media/Datei:K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/af/K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968.jpg",
     linkUrl: "https://youtu.be/fmE46vnZwcU",
     title: "𝗧𝗮𝗴 𝟮𝟰: 𝗞𝗶𝗻𝗴 𝗞𝗼𝗻𝗴 𝗮𝗺 𝗞ö𝗹𝗻𝗲𝗿 𝗗𝗼𝗺 – 𝗗𝗮𝘀 𝗳𝗲𝘁𝘁𝗲 𝗙𝗶𝗻𝗮𝗹𝗲!",
   },
